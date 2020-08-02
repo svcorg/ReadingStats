@@ -15,3 +15,9 @@ struct Book_Reading_TrackerApp: App {
         }
     }
 }
+
+struct Book_Reading_TrackerApp_Previews: PreviewProvider {
+    static var previews: some View {
+        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+    }
+}

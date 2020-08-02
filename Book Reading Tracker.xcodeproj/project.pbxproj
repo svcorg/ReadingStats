@@ -13,6 +13,22 @@
 		80B9451824D513C100728EF2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9450324D513C000728EF2 /* ContentView.swift */; };
 		80B9451924D513C100728EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B9450424D513C100728EF2 /* Assets.xcassets */; };
 		80B9451A24D513C100728EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B9450424D513C100728EF2 /* Assets.xcassets */; };
+		80B9452424D519F700728EF2 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 80B9452324D519F700728EF2 /* Intents.intentdefinition */; };
+		80B9452524D519F700728EF2 /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 80B9452324D519F700728EF2 /* Intents.intentdefinition */; };
+		80B9452724D51BA300728EF2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9452624D51BA300728EF2 /* Home.swift */; };
+		80B9452824D51BA300728EF2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9452624D51BA300728EF2 /* Home.swift */; };
+		80B9452B24D56A4300728EF2 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80B9452924D56A4300728EF2 /* Model.xcdatamodeld */; };
+		80B9452C24D56A4300728EF2 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80B9452924D56A4300728EF2 /* Model.xcdatamodeld */; };
+		80B9452F24D6648800728EF2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B9452E24D6648800728EF2 /* MapKit.framework */; };
+		80B9453224D664D300728EF2 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B9453124D664D300728EF2 /* ExternalAccessory.framework */; };
+		80B9453424D664E000728EF2 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80B9453324D664E000728EF2 /* HealthKit.framework */; };
+		80B9453724D6AD3200728EF2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9453624D6AD3200728EF2 /* HomeView.swift */; };
+		80B9453824D6AD3200728EF2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9453624D6AD3200728EF2 /* HomeView.swift */; };
+		80B9453A24D6AD4F00728EF2 /* BooksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9453924D6AD4F00728EF2 /* BooksListView.swift */; };
+		80B9453B24D6AD4F00728EF2 /* BooksListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9453924D6AD4F00728EF2 /* BooksListView.swift */; };
+		80B9453D24D6AD7C00728EF2 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9453C24D6AD7C00728EF2 /* TabBarView.swift */; };
+		80B9453F24D6AD8E00728EF2 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9453E24D6AD8E00728EF2 /* ListView.swift */; };
+		80B9454024D6B45B00728EF2 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B9453E24D6AD8E00728EF2 /* ListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +40,17 @@
 		80B9451124D513C100728EF2 /* Book Reading Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Book Reading Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80B9451324D513C100728EF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80B9451424D513C100728EF2 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		80B9452324D519F700728EF2 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		80B9452624D51BA300728EF2 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		80B9452A24D56A4300728EF2 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		80B9452E24D6648800728EF2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		80B9453024D6649600728EF2 /* Book Reading Tracker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Book Reading Tracker.entitlements"; sourceTree = "<group>"; };
+		80B9453124D664D300728EF2 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/ExternalAccessory.framework; sourceTree = DEVELOPER_DIR; };
+		80B9453324D664E000728EF2 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		80B9453624D6AD3200728EF2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		80B9453924D6AD4F00728EF2 /* BooksListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksListView.swift; sourceTree = "<group>"; };
+		80B9453C24D6AD7C00728EF2 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		80B9453E24D6AD8E00728EF2 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +58,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B9453424D664E000728EF2 /* HealthKit.framework in Frameworks */,
+				80B9453224D664D300728EF2 /* ExternalAccessory.framework in Frameworks */,
+				80B9452F24D6648800728EF2 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,19 +77,25 @@
 		80B944FC24D513C000728EF2 = {
 			isa = PBXGroup;
 			children = (
+				80B9453024D6649600728EF2 /* Book Reading Tracker.entitlements */,
 				80B9450124D513C000728EF2 /* Shared */,
 				80B9450B24D513C100728EF2 /* iOS */,
 				80B9451224D513C100728EF2 /* macOS */,
 				80B9450A24D513C100728EF2 /* Products */,
+				80B9452D24D6648800728EF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		80B9450124D513C000728EF2 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				80B9453524D6AD1200728EF2 /* Views */,
 				80B9450224D513C000728EF2 /* Book_Reading_TrackerApp.swift */,
 				80B9450324D513C000728EF2 /* ContentView.swift */,
+				80B9452924D56A4300728EF2 /* Model.xcdatamodeld */,
+				80B9452324D519F700728EF2 /* Intents.intentdefinition */,
 				80B9450424D513C100728EF2 /* Assets.xcassets */,
+				80B9452624D51BA300728EF2 /* Home.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -77,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				80B9450C24D513C100728EF2 /* Info.plist */,
+				80B9453C24D6AD7C00728EF2 /* TabBarView.swift */,
 			);
 			path = iOS;
 			sourceTree = "<group>";
@@ -88,6 +125,26 @@
 				80B9451424D513C100728EF2 /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		80B9452D24D6648800728EF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80B9453324D664E000728EF2 /* HealthKit.framework */,
+				80B9453124D664D300728EF2 /* ExternalAccessory.framework */,
+				80B9452E24D6648800728EF2 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80B9453524D6AD1200728EF2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				80B9453E24D6AD8E00728EF2 /* ListView.swift */,
+				80B9453624D6AD3200728EF2 /* HomeView.swift */,
+				80B9453924D6AD4F00728EF2 /* BooksListView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,8 +244,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B9452424D519F700728EF2 /* Intents.intentdefinition in Sources */,
 				80B9451724D513C100728EF2 /* ContentView.swift in Sources */,
+				80B9453D24D6AD7C00728EF2 /* TabBarView.swift in Sources */,
+				80B9453A24D6AD4F00728EF2 /* BooksListView.swift in Sources */,
+				80B9452B24D56A4300728EF2 /* Model.xcdatamodeld in Sources */,
+				80B9453724D6AD3200728EF2 /* HomeView.swift in Sources */,
+				80B9452724D51BA300728EF2 /* Home.swift in Sources */,
 				80B9451524D513C100728EF2 /* Book_Reading_TrackerApp.swift in Sources */,
+				80B9453F24D6AD8E00728EF2 /* ListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +260,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80B9454024D6B45B00728EF2 /* ListView.swift in Sources */,
+				80B9452524D519F700728EF2 /* Intents.intentdefinition in Sources */,
 				80B9451824D513C100728EF2 /* ContentView.swift in Sources */,
+				80B9453B24D6AD4F00728EF2 /* BooksListView.swift in Sources */,
+				80B9452C24D56A4300728EF2 /* Model.xcdatamodeld in Sources */,
+				80B9453824D6AD3200728EF2 /* HomeView.swift in Sources */,
+				80B9452824D51BA300728EF2 /* Home.swift in Sources */,
 				80B9451624D513C100728EF2 /* Book_Reading_TrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,7 +390,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Book Reading Tracker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67RJKYZG3V;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -341,7 +413,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Book Reading Tracker.entitlements";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 67RJKYZG3V;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -366,6 +440,7 @@
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 67RJKYZG3V;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -388,6 +463,7 @@
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 67RJKYZG3V;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -433,6 +509,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		80B9452924D56A4300728EF2 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				80B9452A24D56A4300728EF2 /* Model.xcdatamodel */,
+			);
+			currentVersion = 80B9452A24D56A4300728EF2 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 80B944FD24D513C000728EF2 /* Project object */;
 }
